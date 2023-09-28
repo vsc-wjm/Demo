@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: "Demo-Test"
-          command: "while true; do echo yes; sleep 30; done"
+          command: "sh init.sh"
 
 workflows:
   Demo:
